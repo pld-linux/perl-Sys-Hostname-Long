@@ -19,10 +19,10 @@ BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Sys::Hostname::Long - Try every conceivable way to get full hostname
+Sys::Hostname::Long - Try every conceivable way to get full hostname.
 
 %description -l pl
-Sys::Hostname::FQDN próbuje wszelkich mo¿liwych sposobów ¿eby uzyskaæ
+Sys::Hostname::Long próbuje wszelkich mo¿liwych sposobów ¿eby uzyskaæ
 pe³n± nazwê hosta.
 
 %prep
