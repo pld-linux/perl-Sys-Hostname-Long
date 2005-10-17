@@ -9,7 +9,7 @@ Summary:	Sys::Hostname::Long - try every conceivable way to get full hostname
 Summary(pl):	Sys::Hostname::Long - uzyskiwanie pe³nej nazwy hosta
 Name:		perl-Sys-Hostname-Long
 Version:	1.2
-Release:	2
+Release:	4
 License:	GPL v2+
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
