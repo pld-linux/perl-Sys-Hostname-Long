@@ -6,7 +6,7 @@
 %define		pdir	Sys
 %define		pnam	Hostname-Long
 Summary:	Sys::Hostname::Long - try every conceivable way to get full hostname
-Summary(pl):	Sys::Hostname::Long - uzyskiwanie pe³nej nazwy hosta
+Summary(pl.UTF-8):   Sys::Hostname::Long - uzyskiwanie peÅ‚nej nazwy hosta
 Name:		perl-Sys-Hostname-Long
 Version:	1.4
 Release:	1
@@ -21,9 +21,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Sys::Hostname::Long - Try every conceivable way to get full hostname.
 
-%description -l pl
-Sys::Hostname::Long próbuje wszelkich mo¿liwych sposobów ¿eby uzyskaæ
-pe³n± nazwê hosta.
+%description -l pl.UTF-8
+Sys::Hostname::Long prÃ³buje wszelkich moÅ¼liwych sposobÃ³w Å¼eby uzyskaÄ‡
+peÅ‚nÄ… nazwÄ™ hosta.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
