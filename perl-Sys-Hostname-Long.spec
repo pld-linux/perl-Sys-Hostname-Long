@@ -6,7 +6,7 @@
 %define		pdir	Sys
 %define		pnam	Hostname-Long
 Summary:	Sys::Hostname::Long - try every conceivable way to get full hostname
-Summary(pl.UTF-8):   Sys::Hostname::Long - uzyskiwanie pełnej nazwy hosta
+Summary(pl.UTF-8):	Sys::Hostname::Long - uzyskiwanie pełnej nazwy hosta
 Name:		perl-Sys-Hostname-Long
 Version:	1.4
 Release:	1
