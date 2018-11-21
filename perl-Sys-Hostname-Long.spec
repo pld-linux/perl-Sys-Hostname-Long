@@ -8,12 +8,12 @@
 Summary:	Sys::Hostname::Long - try every conceivable way to get full hostname
 Summary(pl.UTF-8):	Sys::Hostname::Long - uzyskiwanie pełnej nazwy hosta
 Name:		perl-Sys-Hostname-Long
-Version:	1.4
-Release:	3
+Version:	1.5
+Release:	1
 License:	GPL v2+
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Sys/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	a5b3c23754cbcff10e283d16c42ec3d3
+# Source0-md5:	a7d7a36fa6905bded4f6b7da94e37532
 URL:		http://search.cpan.org/dist/Sys-Hostname-Long/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
@@ -32,6 +32,7 @@ pełną nazwę hosta.
 %build
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
+
 %{__make} \
 	CC="%{__cc}" \
 	OPTIMIZE="%{rpmcflags}"
