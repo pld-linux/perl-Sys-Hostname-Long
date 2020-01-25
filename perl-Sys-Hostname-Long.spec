@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Sys
 %define		pnam	Hostname-Long
 Summary:	Sys::Hostname::Long - try every conceivable way to get full hostname
