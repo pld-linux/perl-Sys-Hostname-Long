@@ -18,6 +18,8 @@ BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
+%define		_debugsource_packages	0
+
 %description
 Sys::Hostname::Long - Try every conceivable way to get full hostname.
 
