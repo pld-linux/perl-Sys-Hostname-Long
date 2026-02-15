@@ -16,9 +16,8 @@ Source0:	http://www.cpan.org/modules/by-module/Sys/%{pdir}-%{pnam}-%{version}.ta
 URL:		http://search.cpan.org/dist/Sys-Hostname-Long/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
-
-%define		_debugsource_packages	0
 
 %description
 Sys::Hostname::Long - Try every conceivable way to get full hostname.
